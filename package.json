@@ -1,6 +1,6 @@
 {
-  "name": "markdown-it-sup",
-  "version": "1.0.0",
+  "name": "markdown-it-sup-alt",
+  "version": "1.0.1",
   "description": "<sup> tag for markdown-it markdown parser.",
   "keywords": [
     "markdown-it-plugin",
@@ -9,13 +9,13 @@
     "superscript",
     "sup"
   ],
-  "homepage": "https://github.com/markdown-it/markdown-it-sup",
+  "homepage": "https://github.com/jay-hodgson/markdown-it-sup",
   "repository": {
     "type": "git",
-    "url": "git://github.com/markdown-it/markdown-it-sup.git"
+    "url": "git://github.com/jay-hodgson/markdown-it-sup.git"
   },
   "bugs": {
-    "url": "https://github.com/markdown-it/markdown-it-sup/issues"
+    "url": "https://github.com/jay-hodgson/markdown-it-sup/issues"
   },
   "license": "MIT",
   "main": "index.js",
@@ -34,5 +34,12 @@
     "mocha": "*",
     "request": "*",
     "uglify-js": "*"
-  }
+  },
+  "dependencies": {
+    "markdown-it-sup": "^1.0.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "author": ""
 }

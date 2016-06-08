@@ -1,10 +1,10 @@
 # markdown-it-sup
 
-[![Build Status](https://img.shields.io/travis/markdown-it/markdown-it-sup/master.svg?style=flat)](https://travis-ci.org/markdown-it/markdown-it-sup)
-[![NPM version](https://img.shields.io/npm/v/markdown-it-sup.svg?style=flat)](https://www.npmjs.org/package/markdown-it-sup)
-[![Coverage Status](https://img.shields.io/coveralls/markdown-it/markdown-it-sup/master.svg?style=flat)](https://coveralls.io/r/markdown-it/markdown-it-sup?branch=master)
+[![Build Status](https://img.shields.io/travis/jay-hodgson/markdown-it-sup/master.svg?style=flat)](https://travis-ci.org/jay-hodgson/markdown-it-sup)
+[![NPM version](https://img.shields.io/npm/v/markdown-it-sup-alt.svg?style=flat)](https://www.npmjs.org/package/markdown-it-sup-alt)
+[![Coverage Status](https://img.shields.io/coveralls/markdown-it/markdown-it-sup/master.svg?style=flat)](https://coveralls.io/r/jay-hodgson/markdown-it-sup?branch=master)
 
-> Superscript (`<sup>`) tag plugin for [markdown-it](https://github.com/markdown-it/markdown-it) markdown parser.
+> Superscript (`<sup>`) tag plugin for [markdown-it](https://github.com/jay-hodgson/markdown-it) markdown parser.
 
 __v1.+ requires `markdown-it` v4.+, see changelog.__
 
@@ -12,6 +12,8 @@ __v1.+ requires `markdown-it` v4.+, see changelog.__
 
 Markup is based on [pandoc](http://johnmacfarlane.net/pandoc/README.html#superscripts-and-subscripts) definition. But nested markup is currently not supported.
 
+Forked from [upstream](https://github.com/markdown-it/markdown-it-sup) to allow unescaped whitespace within delimiters (still must be in the same line).
+If using this plugin, it's recommended that you also use a math plugin so that text like 2^4 + 3^5 is handled properly.
 
 ## Install
 
@@ -37,4 +39,4 @@ package system, module will add itself globally as `window.markdownitSup`.
 
 ## License
 
-[MIT](https://github.com/markdown-it/markdown-it-sup/blob/master/LICENSE)
+[MIT](https://github.com/jay-hodgson/markdown-it-sup/blob/master/LICENSE)
