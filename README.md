@@ -1,7 +1,6 @@
 # markdown-it-sup-alt
 
 [![NPM version](https://img.shields.io/npm/v/markdown-it-sup-alt.svg?style=flat)](https://www.npmjs.org/package/markdown-it-sup-alt)
-[![Coverage Status](https://img.shields.io/coveralls/markdown-it/markdown-it-sup/master.svg?style=flat)](https://coveralls.io/r/jay-hodgson/markdown-it-sup?branch=master)
 
 > Superscript (`<sup>`) tag plugin for [markdown-it](https://github.com/markdown-it/markdown-it) markdown parser.
 
