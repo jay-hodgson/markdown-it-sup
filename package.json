@@ -34,12 +34,5 @@
     "mocha": "*",
     "request": "*",
     "uglify-js": "*"
-  },
-  "dependencies": {
-    "markdown-it-sup": "^1.0.0"
-  },
-  "directories": {
-    "test": "test"
-  },
-  "author": ""
+  }
 }

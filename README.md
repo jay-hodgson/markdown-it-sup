@@ -1,6 +1,5 @@
 # markdown-it-sup-alt
 
-[![Build Status](https://img.shields.io/travis/jay-hodgson/markdown-it-sup/master.svg?style=flat)](https://travis-ci.org/jay-hodgson/markdown-it-sup)
 [![NPM version](https://img.shields.io/npm/v/markdown-it-sup-alt.svg?style=flat)](https://www.npmjs.org/package/markdown-it-sup-alt)
 [![Coverage Status](https://img.shields.io/coveralls/markdown-it/markdown-it-sup/master.svg?style=flat)](https://coveralls.io/r/jay-hodgson/markdown-it-sup?branch=master)
 
