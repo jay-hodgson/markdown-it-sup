@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-sup-alt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "<sup> tag for markdown-it markdown parser.",
   "keywords": [
     "markdown-it-plugin",

@@ -1,10 +1,10 @@
-# markdown-it-sup
+# markdown-it-sup-alt
 
 [![Build Status](https://img.shields.io/travis/jay-hodgson/markdown-it-sup/master.svg?style=flat)](https://travis-ci.org/jay-hodgson/markdown-it-sup)
 [![NPM version](https://img.shields.io/npm/v/markdown-it-sup-alt.svg?style=flat)](https://www.npmjs.org/package/markdown-it-sup-alt)
 [![Coverage Status](https://img.shields.io/coveralls/markdown-it/markdown-it-sup/master.svg?style=flat)](https://coveralls.io/r/jay-hodgson/markdown-it-sup?branch=master)
 
-> Superscript (`<sup>`) tag plugin for [markdown-it](https://github.com/jay-hodgson/markdown-it) markdown parser.
+> Superscript (`<sup>`) tag plugin for [markdown-it](https://github.com/markdown-it/markdown-it) markdown parser.
 
 __v1.+ requires `markdown-it` v4.+, see changelog.__
 
@@ -20,15 +20,15 @@ If using this plugin, it's recommended that you also use a math plugin so that t
 node.js, browser:
 
 ```bash
-npm install markdown-it-sup --save
-bower install markdown-it-sup --save
+npm install markdown-it-sup-alt --save
+bower install markdown-it-sup-alt --save
 ```
 
 ## Use
 
 ```js
 var md = require('markdown-it')()
-            .use(require('markdown-it-sup'));
+            .use(require('markdown-it-sup-alt'));
 
 md.render('29^th^') // => '<p>29<sup>th</sup></p>'
 ```
